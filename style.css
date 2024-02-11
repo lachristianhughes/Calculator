@@ -1,0 +1,106 @@
+User
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(320deg, black,rgb(89, 23, 23),rgb(6, 0, 0)) ;
+    display: flex;
+    font-family: 'Dosis' , sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px black;
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255,.3);
+    border:1px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px black;
+    color: black;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+}
+
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-button{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px black;
+    color: black;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+}
+
+.calc-button:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px black;
+    color: black;
+    background: rgb(228, 158, 28);
+}
+
+.calc-button:last-child:hover{
+    background-color: inherit;
+    color: inherit;
+}
+
+.calc-button:hover{
+    background-color: inherit;
+
+}
+
+.calc-button:active{
+    background-color: bisque;
+}
+
+.double{
+    flex-basis: 47%;
+}
+
+.triple{
+    flex-basis: 73%;
+}
